@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "amar-blood",
+    "name": "Amar Blood",
     "slug": "amar-blood",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.princevip.amarblood"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2f799cc5-0893-4154-bcd5-e92894c0da42"
+      }
+    },
+    "owner": "princevip"
   }
 }
